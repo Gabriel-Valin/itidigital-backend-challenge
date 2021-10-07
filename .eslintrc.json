@@ -1,0 +1,6 @@
+{
+  "extends": "standard-with-typescript", // estender da lib que instalamos
+  "parserOptions": {
+    "project": "./tsconfig.json" // apontamos o arquivo de configuração
+  }
+}
