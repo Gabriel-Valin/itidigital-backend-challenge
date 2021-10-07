@@ -1,3 +1,7 @@
+## RUNNING:
+  - In terminal run: yarn 
+  - And yarn start
+
 # Descrição
 
 Considere uma senha sendo válida quando a mesma possuir as seguintes definições:
