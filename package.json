@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
@@ -21,11 +22,13 @@
     "typescript": "^4.4.3"
   },
   "scripts": {
-    "start": "ts-node-dev src/main/server.ts",
+    "start": "ts-node-dev ./src/infra/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:unit": "yarn test -- --watch -c jest-unit-config.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "reflect-metadata": "^0.1.13",
     "secure-password-validator": "^1.0.2",
     "tsyringe": "^4.6.0"
